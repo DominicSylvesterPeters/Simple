@@ -1,1 +1,160 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.header{
+    height: 45px;
+    background: linear-gradient(45deg, #24347e, #161d76);
+    color: #eeeeee;
+    padding-left: 25px;
+    padding-top: 23px;
+    font-size: 24px;
+}
+.flex-container {
+    display: flex;
+    height: 100%;
+  }
+  .flex-container2 {
+    display: flex;
+    height: 40px;
+  }
+  .flex-item-left {
+    border-radius: 15px;
+    padding: 15px;
+    flex: 20%;
+    height: 100%;
+    overflow-y: scroll; 
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 80%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .leftHeader{
+    flex: 18%;
+  }
+  .rightHeader{
+    flex: 75%;
+  }
+  .caption{
+    display: inline-block;
+    padding-left: 26px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .refreshButton{
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    background: #cecece;
+    border: none;
+    border-radius: 6px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+  .ref-icons{
+    position: relative;
+    top: 3px;
+    left: -2px;
+  }
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+  .u-name{
+      font-size: 18px;
+      cursor:pointer;
+      font-weight: 500;
+      color: #424242;
+  }
+  .u-name:hover{
+      text-decoration: underline;
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(196, 196, 196); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1; 
+  }
+  .user{
+    font-size: 24px !important;
+    float: left;
+    margin: -3px;
+  }
+  .u-uname{
+    font-size: 12px;
+    padding-left: 26px;
+    padding-top: 5px;
+    font-weight: 500;
+    color: #424242;
+  }
+  .u-email{
+    font-size: 12px;
+    text-transform: lowercase;
+    padding-left: 26px;
+    padding-top: 5px;
+  }
+  .u-phone{
+    font-size: 12px;
+    text-transform: lowercase;
+    padding-left: 26px;
+    padding-top: 5px;
+  }
+  .u-website{
+    font-size: 12px;
+    text-transform: lowercase;
+    padding-left: 26px;
+    padding-top: 5px;
+  }
+  .sub-icons{
+    font-size: 14px !important;
+    color: #212e7c;
+    position: relative;
+    top: 3px;
+  }
